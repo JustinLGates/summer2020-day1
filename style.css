@@ -1,8 +1,61 @@
+:root {
+  --dark: rgb(68, 68, 68);
+  --light: cornflowerblue;
+  --textColor: rgb(233, 232, 232);
+  --h-color: rgb(255, 255, 255);
+  --card: rgb(53, 53, 53);
+  --shadow: 2px 2px 2px rgba(32, 32, 32, 0.692),
+    6px 6px 6px rgba(22, 22, 22, 0.4);
+}
+.container {
+  background-color: var(--dark);
+}
+a {
+  text-decoration: none;
+  color: rgb(26, 26, 26);
+}
+a:hover {
+  cursor: pointer;
+  color: azure;
+}
+
 h1,
 h2,
 h3 {
-  color: ghostwhite;
+  color: var(--h-color);
+  text-shadow: var(--shadow-light);
 }
 body {
-  background-color: palegreen;
+  background-color: var(--dark);
+  color: var(--textColor);
+}
+.card {
+  background: var(--light);
+  box-shadow: var(--shadow);
+}
+.card-2 {
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+
+.center {
+  text-align: center;
+}
+.w-70 {
+  max-width: 70%;
+}
+.m-auto {
+  margin: auto;
+}
+.d-flex {
+  display: flex;
+}
+.space-around {
+  justify-content: space-around;
+}
+.large-p {
+  font-size: large;
+}
+.p-1 {
+  padding: 1rem;
 }
