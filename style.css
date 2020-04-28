@@ -59,3 +59,14 @@ body {
 .p-1 {
   padding: 1rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .w-70 {
+    min-width: 95%;
+  }
+}
+
+img {
+  max-width: 100%;
+  padding: 0.7rem;
+}
